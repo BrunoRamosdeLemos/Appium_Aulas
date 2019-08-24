@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53254" started-at="2019-08-24T11:55:08 BOT" finished-at="2019-08-24T11:56:01 BOT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53254" started-at="2019-08-24T11:55:08 BOT" finished-at="2019-08-24T11:56:01 BOT">
+      <class name="appium.java.aulas.Aula2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:appium.java.aulas.Aula2@64729b1e]" name="setup" is-config="true" duration-ms="10889" started-at="2019-08-24T11:55:08 BOT" finished-at="2019-08-24T11:55:19 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMulDecimal()[pri:0, instance:appium.java.aulas.Aula2@64729b1e]" name="testMulDecimal" duration-ms="17067" started-at="2019-08-24T11:55:19 BOT" finished-at="2019-08-24T11:55:36 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulDecimal -->
+        <test-method status="PASS" signature="testMulSoma()[pri:0, instance:appium.java.aulas.Aula2@64729b1e]" name="testMulSoma" duration-ms="8742" started-at="2019-08-24T11:55:36 BOT" finished-at="2019-08-24T11:55:45 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulSoma -->
+        <test-method status="PASS" signature="testSomaDecimal()[pri:0, instance:appium.java.aulas.Aula2@64729b1e]" name="testSomaDecimal" duration-ms="10298" started-at="2019-08-24T11:55:45 BOT" finished-at="2019-08-24T11:55:55 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSomaDecimal -->
+        <test-method status="PASS" signature="testSomaInt()[pri:0, instance:appium.java.aulas.Aula2@64729b1e]" name="testSomaInt" duration-ms="6212" started-at="2019-08-24T11:55:55 BOT" finished-at="2019-08-24T11:56:01 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSomaInt -->
+      </class> <!-- appium.java.aulas.Aula2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
