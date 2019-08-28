@@ -1,7 +1,7 @@
 package appium.java.aulas;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -21,7 +21,7 @@ public class Aula2 {
 	
 	final double THRESHOLD = .0001;
 	
-	@BeforeClass
+	@BeforeSuite
 	public void setup() throws MalformedURLException {
 		cap.setCapability("deviceName","emulator-5554");
 		cap.setCapability("platformName","Android");
