@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22598" started-at="2019-08-27T21:39:18 BOT" finished-at="2019-08-27T21:39:41 BOT">
+  <suite name="Default suite" duration-ms="16323" started-at="2019-08-29T20:40:33 BOT" finished-at="2019-08-29T20:40:49 BOT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22598" started-at="2019-08-27T21:39:18 BOT" finished-at="2019-08-27T21:39:41 BOT">
-      <class name="appium.java.aulas.Aula3">
-        <test-method status="PASS" signature="setup()[pri:0, instance:appium.java.aulas.Aula3@25ad4f71]" name="setup" is-config="true" duration-ms="13101" started-at="2019-08-27T21:39:05 BOT" finished-at="2019-08-27T21:39:18 BOT">
+    <test name="Default test" duration-ms="16323" started-at="2019-08-29T20:40:33 BOT" finished-at="2019-08-29T20:40:49 BOT">
+      <class name="appium.java.aulas.Aula4">
+        <test-method status="PASS" signature="setup()[pri:0, instance:appium.java.aulas.Aula4@5679e96b]" name="setup" is-config="true" duration-ms="9731" started-at="2019-08-29T20:40:33 BOT" finished-at="2019-08-29T20:40:42 BOT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testeBuscarProjetoHefesto()[pri:0, instance:appium.java.aulas.Aula3@25ad4f71]" name="testeBuscarProjetoHefesto" duration-ms="6566" started-at="2019-08-27T21:39:18 BOT" finished-at="2019-08-27T21:39:25 BOT">
+        <test-method status="PASS" signature="movimentsDragAndDrop()[pri:0, instance:appium.java.aulas.Aula4@5679e96b]" name="movimentsDragAndDrop" duration-ms="4114" started-at="2019-08-29T20:40:43 BOT" finished-at="2019-08-29T20:40:47 BOT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testeBuscarProjetoHefesto -->
-        <test-method status="PASS" signature="testeOrdenarbuscarProjetoHefesto()[pri:1, instance:appium.java.aulas.Aula3@25ad4f71]" name="testeOrdenarbuscarProjetoHefesto" duration-ms="4779" started-at="2019-08-27T21:39:25 BOT" finished-at="2019-08-27T21:39:30 BOT">
+        </test-method> <!-- movimentsDragAndDrop -->
+        <test-method status="PASS" signature="movimentsScroll()[pri:0, instance:appium.java.aulas.Aula4@5679e96b]" name="movimentsScroll" duration-ms="2421" started-at="2019-08-29T20:40:47 BOT" finished-at="2019-08-29T20:40:49 BOT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testeOrdenarbuscarProjetoHefesto -->
-        <test-method status="PASS" signature="testeCompartilharVideoPorEmail()[pri:2, instance:appium.java.aulas.Aula3@25ad4f71]" name="testeCompartilharVideoPorEmail" duration-ms="4608" started-at="2019-08-27T21:39:30 BOT" finished-at="2019-08-27T21:39:34 BOT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testeCompartilharVideoPorEmail -->
-        <test-method status="PASS" signature="testeDefinirDestinatarioAssunto()[pri:3, instance:appium.java.aulas.Aula3@25ad4f71]" name="testeDefinirDestinatarioAssunto" duration-ms="5852" started-at="2019-08-27T21:39:34 BOT" finished-at="2019-08-27T21:39:40 BOT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testeDefinirDestinatarioAssunto -->
-        <test-method status="PASS" signature="testeEnviarEmail()[pri:4, instance:appium.java.aulas.Aula3@25ad4f71]" name="testeEnviarEmail" duration-ms="732" started-at="2019-08-27T21:39:40 BOT" finished-at="2019-08-27T21:39:41 BOT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testeEnviarEmail -->
-      </class> <!-- appium.java.aulas.Aula3 -->
+        </test-method> <!-- movimentsScroll -->
+      </class> <!-- appium.java.aulas.Aula4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

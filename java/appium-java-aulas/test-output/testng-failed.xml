@@ -3,15 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="appium.java.aulas.Aula3">
+      <class name="appium.java.aulas.Aula4">
         <methods>
-          <include name="testeEnviarEmail"/>
-          <include name="testeOrdenarbuscarProjetoHefesto"/>
-          <include name="testeCompartilharVideoPorEmail"/>
-          <include name="testeDefinirDestinatarioAssunto"/>
+          <include name="movimentsDragAndDrop"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- appium.java.aulas.Aula3 -->
+      </class> <!-- appium.java.aulas.Aula4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
