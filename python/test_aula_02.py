@@ -148,7 +148,6 @@ def test_mult_dec():
     el1.click()
     el2.click()
     
-
     multiply.click()
     
     #valor 3 = 324;76
@@ -166,7 +165,6 @@ def test_mult_dec():
     #valor result
     equals = driver.find_element_by_accessibility_id("equals")
     equals.click()
-    
+
     result = driver.find_element_by_id("com.google.android.calculator:id/result_final")
-    
-    assert 74895722.776608‬ == pytest.approx(float(result.text),THRESHOLD)
+    assert 74895722.776608 == pytest.approx(result.text),THRESHOLD)

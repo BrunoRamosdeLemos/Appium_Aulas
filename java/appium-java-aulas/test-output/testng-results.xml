@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16323" started-at="2019-08-29T20:40:33 BOT" finished-at="2019-08-29T20:40:49 BOT">
+  <suite name="Default suite" duration-ms="29056" started-at="2019-09-03T20:55:02 BOT" finished-at="2019-09-03T20:55:31 BOT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16323" started-at="2019-08-29T20:40:33 BOT" finished-at="2019-08-29T20:40:49 BOT">
-      <class name="appium.java.aulas.Aula4">
-        <test-method status="PASS" signature="setup()[pri:0, instance:appium.java.aulas.Aula4@5679e96b]" name="setup" is-config="true" duration-ms="9731" started-at="2019-08-29T20:40:33 BOT" finished-at="2019-08-29T20:40:42 BOT">
+    <test name="Default test" duration-ms="29056" started-at="2019-09-03T20:55:02 BOT" finished-at="2019-09-03T20:55:31 BOT">
+      <class name="appium.java.aulas.Aula5">
+        <test-method status="PASS" signature="setup()[pri:0, instance:appium.java.aulas.Aula5@12fcc71f]" name="setup" is-config="true" duration-ms="11303" started-at="2019-09-03T20:55:02 BOT" finished-at="2019-09-03T20:55:13 BOT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="movimentsDragAndDrop()[pri:0, instance:appium.java.aulas.Aula4@5679e96b]" name="movimentsDragAndDrop" duration-ms="4114" started-at="2019-08-29T20:40:43 BOT" finished-at="2019-08-29T20:40:47 BOT">
+        <test-method status="PASS" signature="abrirTirarSelfieCameraTest()[pri:0, instance:appium.java.aulas.Aula5@12fcc71f]" name="abrirTirarSelfieCameraTest" duration-ms="3915" started-at="2019-09-03T20:55:13 BOT" finished-at="2019-09-03T20:55:17 BOT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- movimentsDragAndDrop -->
-        <test-method status="PASS" signature="movimentsScroll()[pri:0, instance:appium.java.aulas.Aula4@5679e96b]" name="movimentsScroll" duration-ms="2421" started-at="2019-08-29T20:40:47 BOT" finished-at="2019-08-29T20:40:49 BOT">
+        </test-method> <!-- abrirTirarSelfieCameraTest -->
+        <test-method status="PASS" signature="aplicarfiltroCameraTest()[pri:1, instance:appium.java.aulas.Aula5@12fcc71f]" name="aplicarfiltroCameraTest" duration-ms="6280" started-at="2019-09-03T20:55:17 BOT" finished-at="2019-09-03T20:55:24 BOT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- movimentsScroll -->
-      </class> <!-- appium.java.aulas.Aula4 -->
+        </test-method> <!-- aplicarfiltroCameraTest -->
+        <test-method status="PASS" signature="compartilharCameraTest()[pri:2, instance:appium.java.aulas.Aula5@12fcc71f]" name="compartilharCameraTest" duration-ms="7496" started-at="2019-09-03T20:55:24 BOT" finished-at="2019-09-03T20:55:31 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compartilharCameraTest -->
+      </class> <!-- appium.java.aulas.Aula5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
