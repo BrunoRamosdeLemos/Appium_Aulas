@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29056" started-at="2019-09-03T20:55:02 BOT" finished-at="2019-09-03T20:55:31 BOT">
+  <suite name="Default suite" duration-ms="36708" started-at="2019-09-10T19:54:58 BOT" finished-at="2019-09-10T19:55:35 BOT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29056" started-at="2019-09-03T20:55:02 BOT" finished-at="2019-09-03T20:55:31 BOT">
-      <class name="appium.java.aulas.Aula5">
-        <test-method status="PASS" signature="setup()[pri:0, instance:appium.java.aulas.Aula5@12fcc71f]" name="setup" is-config="true" duration-ms="11303" started-at="2019-09-03T20:55:02 BOT" finished-at="2019-09-03T20:55:13 BOT">
+    <test name="Default test" duration-ms="36708" started-at="2019-09-10T19:54:58 BOT" finished-at="2019-09-10T19:55:35 BOT">
+      <class name="appium.java.aulas.Aula6">
+        <test-method status="PASS" signature="setup()[pri:0, instance:appium.java.aulas.Aula6@64729b1e]" name="setup" is-config="true" duration-ms="12578" started-at="2019-09-10T19:54:58 BOT" finished-at="2019-09-10T19:55:10 BOT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="abrirTirarSelfieCameraTest()[pri:0, instance:appium.java.aulas.Aula5@12fcc71f]" name="abrirTirarSelfieCameraTest" duration-ms="3915" started-at="2019-09-03T20:55:13 BOT" finished-at="2019-09-03T20:55:17 BOT">
+        <test-method status="PASS" signature="criarEventoTest()[pri:0, instance:appium.java.aulas.Aula6@64729b1e]" name="criarEventoTest" duration-ms="20567" started-at="2019-09-10T19:55:10 BOT" finished-at="2019-09-10T19:55:31 BOT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- abrirTirarSelfieCameraTest -->
-        <test-method status="PASS" signature="aplicarfiltroCameraTest()[pri:1, instance:appium.java.aulas.Aula5@12fcc71f]" name="aplicarfiltroCameraTest" duration-ms="6280" started-at="2019-09-03T20:55:17 BOT" finished-at="2019-09-03T20:55:24 BOT">
+        </test-method> <!-- criarEventoTest -->
+        <test-method status="PASS" signature="ScreenshotTest()[pri:1, instance:appium.java.aulas.Aula6@64729b1e]" name="ScreenshotTest" duration-ms="3512" started-at="2019-09-10T19:55:31 BOT" finished-at="2019-09-10T19:55:35 BOT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aplicarfiltroCameraTest -->
-        <test-method status="PASS" signature="compartilharCameraTest()[pri:2, instance:appium.java.aulas.Aula5@12fcc71f]" name="compartilharCameraTest" duration-ms="7496" started-at="2019-09-03T20:55:24 BOT" finished-at="2019-09-03T20:55:31 BOT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- compartilharCameraTest -->
-      </class> <!-- appium.java.aulas.Aula5 -->
+        </test-method> <!-- ScreenshotTest -->
+      </class> <!-- appium.java.aulas.Aula6 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

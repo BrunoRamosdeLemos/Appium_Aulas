@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="appium.java.aulas.Aula5">
+      <class name="appium.java.aulas.Aula6">
         <methods>
+          <include name="criarEventoTest"/>
           <include name="setup"/>
-          <include name="aplicarfiltroCameraTest"/>
         </methods>
-      </class> <!-- appium.java.aulas.Aula5 -->
+      </class> <!-- appium.java.aulas.Aula6 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
