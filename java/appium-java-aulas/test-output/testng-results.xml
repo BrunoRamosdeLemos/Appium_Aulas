@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36708" started-at="2019-09-10T19:54:58 BOT" finished-at="2019-09-10T19:55:35 BOT">
+  <suite name="Suite" duration-ms="39774" started-at="2019-09-12T21:34:03 BOT" finished-at="2019-09-12T21:34:43 BOT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36708" started-at="2019-09-10T19:54:58 BOT" finished-at="2019-09-10T19:55:35 BOT">
-      <class name="appium.java.aulas.Aula6">
-        <test-method status="PASS" signature="setup()[pri:0, instance:appium.java.aulas.Aula6@64729b1e]" name="setup" is-config="true" duration-ms="12578" started-at="2019-09-10T19:54:58 BOT" finished-at="2019-09-10T19:55:10 BOT">
+    <test name="Test1" duration-ms="39774" started-at="2019-09-12T21:34:03 BOT" finished-at="2019-09-12T21:34:43 BOT">
+      <class name="appium.java.aulas.MultDevices">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appium.java.aulas.MultDevices@2d6eabae]" name="beforeMethod" is-config="true" duration-ms="37612" started-at="2019-09-12T21:34:03 BOT" finished-at="2019-09-12T21:34:41 BOT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ZF52246JVH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ZF52246JVH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8200]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="criarEventoTest()[pri:0, instance:appium.java.aulas.Aula6@64729b1e]" name="criarEventoTest" duration-ms="20567" started-at="2019-09-10T19:55:10 BOT" finished-at="2019-09-10T19:55:31 BOT">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="criarEventoTest()[pri:0, instance:appium.java.aulas.MultDevices@2d6eabae]" name="criarEventoTest" duration-ms="2111" started-at="2019-09-12T21:34:41 BOT" finished-at="2019-09-12T21:34:43 BOT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- criarEventoTest -->
-        <test-method status="PASS" signature="ScreenshotTest()[pri:1, instance:appium.java.aulas.Aula6@64729b1e]" name="ScreenshotTest" duration-ms="3512" started-at="2019-09-10T19:55:31 BOT" finished-at="2019-09-10T19:55:35 BOT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ScreenshotTest -->
-      </class> <!-- appium.java.aulas.Aula6 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- appium.java.aulas.MultDevices -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>

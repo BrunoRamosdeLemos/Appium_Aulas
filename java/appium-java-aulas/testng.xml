@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test  name="Test1">
+  <parameter name="deviceName_"  value="ZF52246JVH"/>
+  <parameter name="UDID_"  value="ZF52246JVH"/>
+  <parameter name="URL_"  value="127.0.0.1:4723/wd/hub"/>
+        <parameter name="systemPort_" value="8200"/>
+    <classes>
+      <class name="appium.java.aulas.MultDevices"/>
+    </classes>
+  </test> 
+  <test name="Test2">
+  <parameter name="deviceName_"  value="emulator-5554"/>
+  <parameter name="UDID_"  value="emulator-5554"/>
+  <parameter name="URL_"  value="127.0.0.1:4723/wd/hub"/>
+        <parameter name="systemPort_" value="8201"/>
+    <classes>
+      <class name="appium.java.aulas.MultDevices"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
